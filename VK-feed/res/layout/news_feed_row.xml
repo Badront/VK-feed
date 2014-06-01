@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/news_feed_copy_history_item"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:id="@+id/copy_history_holder"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/comments"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:drawableLeft="@drawable/ic_post_comment"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"/>
+        <TextView
+                android:id="@+id/likes"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:drawableLeft="@drawable/ic_post_like"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"/>
+        <TextView
+                android:id="@+id/reposts"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_toLeftOf="@id/likes"
+                android:drawableLeft="@drawable/ic_post_repost"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"/>
+    </RelativeLayout>
+</LinearLayout>

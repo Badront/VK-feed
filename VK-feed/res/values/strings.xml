@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VK-feed</string>
+    <string name="attention">Внимание</string>
+    <string name="network_error">Отсутствует подключение к интернету.\n
+        Подключитесь к сети и попробуйте снова.
+    </string>
+    <string name="repeat">Повторить</string>
+    <string name="back_toast">Нажмите снова для выхода</string>
+    <string name="news_feed">Новости</string>
+    <string name="news_feed_item">Запись на стене</string>
+    <string name="attachment_format_not_supported">Тип вложения {0} не поддерживается</string>
+</resources>
