@@ -6,3 +6,6 @@ VK-feed
 Новостная лента ВК
 
 Автор Бадретдинов Айрат
+
+VK-feed depends on PullToRefresh, vksdk_library (modified) and appcompat
+library.
